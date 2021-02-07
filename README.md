@@ -4,8 +4,8 @@ python module xrbm example
 
 1. if install xrbm fault. try to uninstall setuptools then try again!
 2. if "Unknown MS Compiler version 1900" fail. 
-  1> YOU can download "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z" (it is mingw) .
-  2> then add the bin folder path to the computer environment.
+  1> YOU can download "https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z" (it is mingw) .  
+  2> then add the bin folder path to the computer environment.  
   3> In anaconda under the "Anaconda3\Lib\distutils" search cygwinccompiler.py. Change   
        > elif msc_ver == '1600':  
        >># VS2010 / MSVC 10.0  
